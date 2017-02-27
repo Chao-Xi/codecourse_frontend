@@ -1,0 +1,19 @@
+#header{
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background: rgba(255,255,255,0.8);
+	height: 60px;
+	border: 0px;
+}
+
+#text{
+	margin-top: 30px;
+	font-size:16px;
+	font-weight: bold;
+	font-family: Georgia;
+	line-height: 0px;
+	text-align: center;
+}
