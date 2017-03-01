@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript">
+	    window.onload=function(){
+		var bar=document.getElementsByClassName('bar-fill')[0];
+		var width=0;
+		timer=null;
+		clearInterval(timer);
+		var timer=setInterval(function(){
+         bar.style.width=width+'%';
+         width=width+1;
+         if(width >=100)
+         {
+         	clearInterval(timer);
+         	width=0;
+         }      
+		}, 50);
+        }
+	</script>
+</head>
+<body>
+  <div class="container">
+  	<div class="bar">
+  		<span class="bar-fill"></span>
+  	</div>
+  </div>
+</body>
+</html>
