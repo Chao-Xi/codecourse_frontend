@@ -1,0 +1,29 @@
+   html, body
+  {
+     height: 100%;
+     margin: 0;
+  }
+
+  footer
+  {
+     background-color: cornflowerblue;
+
+  }
+
+  .wrapper{
+  	 min-height:100%;
+  	 margin-bottom: -100px;
+  }
+
+  .warpper:after{
+  	 content: "";
+  	 display: block;
+  }
+  .wrapper:after, footer
+  {
+  	height:100px;
+  }
+
+ /* p::after { 
+    content: " - Remember this";
+  }*/
