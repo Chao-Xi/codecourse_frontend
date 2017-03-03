@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check Number</title>
+
+</head>
+<body>
+    <p>User Acount: <span class="user-count"></span></p>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+     <script type="text/javascript">
+     (function(){
+
+     var poll=function(){
+     		$.ajax({
+     			url:'users.json',
+     			dataType:'json',
+     		    type: 'get',
+                success:function(data)
+                {
+                 $('.user-count').text(data.users);	
+                },
+                error:function() {
+                  //error
+                } 
+     		});
+     };
+
+      poll();
+
+      setInterval(function(){ poll(); }, 2000); 
+
+     })();
+     </script>
+</body>
+</html>
