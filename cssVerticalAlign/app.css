@@ -1,0 +1,20 @@
+body{
+	font: 100% Georgia;
+}
+
+.container{
+	width: 100%;
+}
+
+.no-results{
+	text-align: center;
+	background-color: #222;
+	color: #fff;
+	height: 200px;
+}
+
+.vertical-align{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
