@@ -1,0 +1,28 @@
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: block
+}
+
+.clearfix:after
+{
+   clear:both;	
+}
+
+.container{
+	background:#ccc;
+}
+
+.box{
+	width:100px;
+	height:100px;
+	background:#222;
+}
+
+.left {
+	float:left;
+}
+
+.right{
+	float:right;
+}
