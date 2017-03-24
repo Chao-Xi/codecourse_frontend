@@ -107,6 +107,13 @@
 
 9.   Well alert box
 
-10.      
+10.  Sidebar
+
+11.  Layout
+
+12.  push and pull  (push->right pull->left)
+     col-md-push-5
+
+13. Login in modal     
 
 
