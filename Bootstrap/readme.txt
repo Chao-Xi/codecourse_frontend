@@ -74,4 +74,39 @@
      <iframe src=""  class="embed-responsive-item"></iframe> //size change
      </div> 
 
+7.  Top Menu
+     <nav class="navbar navbar-inverse"> black and white
+    <div class="navbar navbar-default"> gray and white
+
+     <div class="navbar-header">
+       <a href="#" class="navbar-brand">Captial Energy LLC</a>   =>Logo
+     </div>
+    
+    <ul class="nav navbar-nav">
+    <li class="active"><a href="#">Home</a></li>              =>Top Menu Bar
+    <li ><a href="#">About</a></li>  
+
+
+    <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Profile <span class="caret"></span></a>   =>drop down menu
+    <ul class="dropdown-menu">
+
+
+    ul class="nav navbar-nav navbar-right">                  =>right menu
+
+
+8.  responsive top menu(toggle menu)
+    
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button> 
+
+      <div  class="collapse navbar-collapse" id="mainNavBar">
+
+9.   Well alert box
+
+10.      
+
 
