@@ -1,0 +1,14 @@
+<script type="text/javascript">
+	function addNumbers(a, b, c, d)
+	{
+		console.log(`The result is ${a+b+c+d}`);
+	}
+    
+    var nums=[1, 2, 3 ,4];
+    addNumbers(...nums);
+    //...nums ie iterate the nums
+
+    var cities=['nyc', 'lalaland'];
+    var celebrites=['TS',...cities, 'ES'];
+    console.log(celebrites);
+</script>

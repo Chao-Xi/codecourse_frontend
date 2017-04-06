@@ -1,0 +1,52 @@
+<script type="text/javascript">
+	class Person{
+		constructor(name, age, weight)
+		{
+			this.name=name;
+			this.age=age;
+			this.weight=weight;
+		}
+
+	   showName()
+	   {
+	   	console.log(this.name);
+	   }	
+	   showAge()
+	   {
+	   	console.log(this.age);
+	   }	
+	   showWeight()
+	   {
+	   	console.log(this.weight);
+	   }	
+	}
+    
+    class Programmer extends Person
+    {
+       constructor(name, age, weight, language)
+		{
+		   super(name, age, weight);
+		   this.language=language;
+		}
+
+		showLanguage()
+	   {
+	   	console.log(this.language);
+	   } 
+    }
+
+   let p1=new Person('alex', '15','160');
+
+   p1.showName();
+    p1.showAge();
+     p1.showWeight();	
+     
+    console.log('---------');
+    
+   let p2=new Programmer('emily', 24, 160, 'php');
+   p1.showName();
+    p2.showAge();
+     p2.showWeight();
+   p2.showLanguage();  
+
+</script>

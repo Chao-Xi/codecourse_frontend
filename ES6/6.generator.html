@@ -1,0 +1,33 @@
+<script type="text/javascript">
+	function* simepleGenerator()
+	{
+		yield 'apples';
+		yield 'bacon';
+		console.log('This is after bacon');
+		yield 'corn';
+	}
+    
+    let sample=simepleGenerator();
+    console.log(sample.next().value);
+    console.log('1------');
+    console.log(sample.next().value);
+    console.log('2------');
+    console.log(sample.next().value);
+    console.log('3------');
+    console.log(sample.next().value);  //undefined
+
+    function* getNextId()
+	{
+		let id=0;
+		while(id < 3)
+		{
+		   yield id++;	
+		}
+	}
+    
+    let createUser=getNextId();
+    console.log(createUser.next().value); 
+    console.log(createUser.next().value);
+    console.log(createUser.next().value);
+    console.log(createUser.next().value);
+</script>

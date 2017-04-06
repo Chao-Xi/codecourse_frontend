@@ -1,0 +1,13 @@
+1.ECMAScript is a scripting language standard and specification
+  Babel Traceur Closure
+   
+
+ New: classes and inheritance
+      template strings
+      srtring features
+      math & number features
+      new data structures
+      iterators
+      generators
+      promises and asyn data
+      arrow functions    
